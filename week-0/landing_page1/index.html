@@ -6,125 +6,100 @@
 
 </html>
 
-<body style="background-color:#0e0e0e ;">
-    <div
-        style="color: white; padding-left: 130px; padding-right: 120; display: flex; justify-content: space-between;padding-top: 10px;padding-bottom: 40px;">
+<body>
+    <div class="nav-bar">
         <div>
             <img src="https://code.visualstudio.com/favicon.ico" width="20" />
-            <span style="font-size: 20px; color: white; font-weight: 500; padding-left: 8px;padding-right: 20px;">Visual
+            <span class="vs-logo">Visual
                 Studio Code</span>
-            <span><a style="text-decoration: none;padding-right: 20px; font-weight: 500;color: #9ba3b4;"
-                    href="https://code.visualstudio.com/docs">Docs</a> </span>
-            <span><a style="padding-right: 20px;font-weight: 500; color: #9ba3b4; text-decoration: none;"
-                    href="https://code.visualstudio.com/updates/v1_92">Updates</a></span>
-            <span><a style="padding-right: 20px;font-weight: 500; color: #9ba3b4; text-decoration: none;"
+            <span><a class="nav-items" href="https://code.visualstudio.com/docs">Docs</a> </span>
+            <span><a class="nav-items" href="https://code.visualstudio.com/updates/v1_92">Updates</a></span>
+            <span><a class="nav-items"
                     href="https://code.visualstudio.com/blogs/2024/06/24/extensions-are-all-you-need">Blog</a></span>
-            <span><a style="padding-right: 20px;font-weight: 500; color: #9ba3b4; text-decoration: none;"
-                    href="https://code.visualstudio.com/api"> API</a></span>
-            <span><a style="padding-right: 20px;font-weight: 500; color: #9ba3b4; text-decoration: none;"
-                    href="https://marketplace.visualstudio.com/VSCode" target="_blank">Extensions</a></span>
-            <span><a style="padding-right: 20px;font-weight: 500;color: #9ba3b4;text-decoration: none;"
-                    href="https://code.visualstudio.com/docs/supporting/faq">FAQs</a></span>
-            <span><a style="padding-right: 20px;font-weight: 500;color: #9ba3b4;text-decoration: none;"
-                    href=" https://code.visualstudio.com/learn"> Learn</a></span>
+            <span><a class="nav-items" href="https://code.visualstudio.com/api"> API</a></span>
+            <span><a class="nav-items" href="https://marketplace.visualstudio.com/VSCode"
+                    target="_blank">Extensions</a></span>
+            <span><a class="nav-items" href="https://code.visualstudio.com/docs/supporting/faq">FAQs</a></span>
+            <span><a class="nav-items" href=" https://code.visualstudio.com/learn"> Learn</a></span>
         </div>
         <div>
-            <input type="text" placeholder="Search Docs"
-                style="padding: 8px 16px;margin-right: 8px; background-color: #0e0e0e; box-shadow: none;border-radius: 4px; border: 1 px solid rgba(255, 255, 255, 0.15); ">
-            <button
-                style="background-color:#0078d4; color: white; font-size: 16px; font-weight: 600;padding: 8px 16px; border-radius: 4px;">Download</button>
+            <input type="text" placeholder="Search Docs" class="navbar-seachbox">
+            <button class="navbar-download">Download</button>
         </div>
     </div>
     <br />
 
     <div>
-        <div style="color: #9ba3b4; display: flex; justify-content: center;">
-            <a href="/https://code.visualstudio.com/updates/v1_92" style="color: #4daafc;">Version 1.92</a> is s now
+        <div class="version_title">
+            <a href="/https://code.visualstudio.com/updates/v1_92">Version 1.92</a> is s now
             available! Read about the new features and fixes from July.
         </div>
 
-        <div style="display: flex; justify-content: space-between; padding-left:150px;padding-right: 120px;" >
-            <div style="color: white; padding-top: 150px;padding-right: 80px;">
-                <span
-                    style="font-size: 14px;font-weight: 600; padding: 8px 12px;border-radius: 32px;color: #9ba3b4;; width: max-content; background-color: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.07);;">Free.
-                    Built on open source. Runs everywhere.</span>
-                <div style="font-size: 52px; font-weight: 600;margin-top: 20px">
+        <div class="first-container">
+            <div id="firstcontainer-left">
+                <span>Free.Built on open source. Runs everywhere.</span>
+                <div id="left-part">
                     Code Editing.
                     Redefined.
                 </div>
-                <button
-                    style="padding: 12px 24px;margin-bottom: 20px; border-radius: 4px;cursor: pointer; font-weight: 500; background-color: #0078d4;font-size: 1.2rem; color: white; margin-top: 40px;"><a
-                        style="text-decoration: none; color: white;"
-                        href="https://code.visualstudio.com/docs/?dv=win64user"> Download for Windows</a></button>
+                <button class="download-btn"><a href="https://code.visualstudio.com/docs/?dv=win64user"> Download for
+                        Windows</a></button>
                 <div style="color:#9ba3b4;">
-                    <a style="color: #4daafc;" target="_blank" href="https://vscode.dev/">Web,</a> <a
-                        style="color: #4daafc;" href="https://code.visualstudio.com/insiders/">Insider Edition</a> or <a
-                        style="color: #4daafc;" href="https://code.visualstudio.com/Download">other platforms</a>
+                    <a class="dwnld" target="_blank" href="https://vscode.dev/">Web,</a> <a class="dwnld"
+                        href="https://code.visualstudio.com/insiders/">Insider Edition</a> or <a class="dwnld"
+                        href="https://code.visualstudio.com/Download">other platforms</a>
                 </div>
-                <p style="font-size: 11px; font-weight: 400;color: #9ba3b4; padding: 10px 0px;">By using VS Code, you
-                    agree to its <span><a style="color:#4daafc ;" href="">license</a></span> and <span><a
-                            style="color: #4daafc;" href=""> privacy statement.</a></span></p>
+                <p class="privacy-section">By using VS Code, you
+                    agree to its <span><a class="pri-stat" href="">license</a></span> and <span><a class="pri-stat"
+                            href=""> privacy statement.</a></span></p>
 
             </div>
             <div>
-                <img src="https://code.visualstudio.com/assets/home/home-screenshot-mac-2x-v2.png" alt="landing page Img"
-                    style="width: 800px; height: 507px; vertical-align: middle; padding-top: 50px;" />
+                <img src="https://code.visualstudio.com/assets/home/home-screenshot-mac-2x-v2.png"
+                    alt="landing page Img" class="landing-img" />
             </div>
         </div>
     </div>
 
     <section>
-        <div
-            style="display: flex; justify-content:center;align-items: center;padding-top: 120px; padding-left: 150px;padding-right:120px ;padding-bottom: 150px;">
-            <div style="width: 33%;">
-                <h2 style="font-size: 30px; font-weight: 600;color: white;">
+        <div class="section1">
+            <div class="leftside-section1">
+                <h2>
                     Code in any language
                 </h2>
-                <p style=" font-size: 16px; font-weight: 500; line-height: 160%;color: #9ba3b4;">VS Code supports almost
+                <p>VS Code supports almost
                     every major programming language. Several ship in the box, like JavaScript, TypeScript, CSS, and
                     HTML, but extensions for others can be found in the VS Code Marketplace.</p>
             </div>
-            <div style="display: flex;justify-content: space-evenly; width: 66%;color: white;">
-                <div style="margin: 8px; text-align: center;align-items: center;color:#9ba3b4 ">
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-js.png" width="40"
+            <div class="rightside-section1">
+                <div id="rightside-box">
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-js.png" width="40"
                                 height="40" /></span><code>JavaScript</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-cs.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-cs.png" width="40"
                                 height="40" /></span><code>C#</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-java.png" height="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-java.png" height="40"
                                 width="40" /></span><code>Java</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-markdown.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-markdown.png" width="40"
                                 height="40" /></span><code>Markdown</code></p>
                 </div>
-                <div style="margin: 8px; text-align: center;align-items: center;color:#9ba3b4">
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-cpp.png" width="40"
+                <div id="rightside-box">
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-cpp.png" width="40"
                                 height="40" /></span><code>TypeScript</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-cpp.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-cpp.png" width="40"
                                 height="40" /></span><code>C++</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-json.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-json.png" width="40"
                                 height="40" /></span><code>JSON</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-powershell.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-powershell.png" width="40"
                                 height="40" /></span><code>Powershell</code></p>
                 </div>
-                <div style="margin: 8px; text-align: center;align-items: center;color:#9ba3b4">
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-python.png" width="40"
+                <div id="rightside-box">
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-python.png" width="40"
                                 height="40" /></span><code>Python</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-html.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-html.png" width="40"
                                 height="40" /></span><code>HTML</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-php.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-php.png" width="40"
                                 height="40" /></span><code>PHP</code></p>
-                    <p style="font-size:16px ;font-weight:400 ;display: flex; align-items: center;"><span><img
-                                src="https://code.visualstudio.com/assets/home/language-yaml.png" width="40"
+                    <p><span><img src="https://code.visualstudio.com/assets/home/language-yaml.png" width="40"
                                 height="40" /></span><code>YAML</code></p>
                 </div>
             </div>
@@ -132,228 +107,340 @@
         </div>
     </section>
     <section>
-        <div
-            style="display: flex; justify-content: space-between; padding-left: 130px;padding-right:120px ;padding-bottom: 120px;">
+        <div class="section2">
             <div style="width: 33%;">
-                <h2 style="font-size: 30px; font-weight: 600;color: white;">
+                <h2>
                     Code with extensions
                 </h2>
-                <p style=" font-size: 16px; font-weight: 500; line-height: 160%;color: #9ba3b4;">Whether you're a beginner or an expert, we've got you covered. Choose from hundreds of extensions to power up your VS Code experience.</p>
-                <a target="_blank" style="font-size: 16px;font-weight: 500; color: #4daafc;" href="https://code.visualstudio.com/docs/editor/extension-marketplace">Learn more about extensions</a>
+                <p id="left-section2">Whether you're a
+                    beginner or an expert, we've got you covered. Choose from hundreds of extensions to power up your VS
+                    Code experience.</p>
+                <a target="_blank" style="font-size: 16px;font-weight: 500; color: #4daafc;"
+                    href="https://code.visualstudio.com/docs/editor/extension-marketplace">Learn more about
+                    extensions</a>
             </div>
             <div>
                 <div>
-                    <a style=" margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row; padding: 16px; border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank">
-                    <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/python-extension.png" width="40" height="40" loading="lazy"/>
-                    <div style="padding-left: 10px;">
-                        <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">Jupyter</h3>
-                        <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Language support for Jupyter Notebooks</p>
-                    </div>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=ms-python.python" target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/python-extension.png" width="40"
+                            height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>Jupyter</h3>
+                            <p>Language
+                                support for Jupyter Notebooks</p>
+                        </div>
                     </a>
                 </div>
                 <div>
-                    <a style=" margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row;  border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter" target="_blank">
-                        <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/jupyter-extension.png" width="40" height="40" loading="lazy"/>
-                        <div style="padding-left: 10px;">
-                            <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">Github Codespaces</h3>
-                            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Fully configured dev environment in the cloud</p>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter" target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/jupyter-extension.png" width="40"
+                            height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>Github
+                                Codespaces</h3>
+                            <p>Fully
+                                configured dev environment in the cloud</p>
                         </div>
-                        </a>
+                    </a>
                 </div>
                 <div>
-                    <a style="margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row; padding: 16px; border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces" target="_blank">
-                        <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/github-pull-requests-extension.png" width="40" height="40" loading="lazy"/>
-                        <div style="padding-left: 10px;">
-                            <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">Python</h3>
-                            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Adds rich languague support for Python</p>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces" target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/github-pull-requests-extension.png"
+                            width="40" height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>Python</h3>
+                            <p>Adds rich
+                                languague support for Python</p>
                         </div>
-                        </a>
+                    </a>
                 </div>
             </div>
             <div>
                 <div>
-                    <a style=" margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row; padding: 16px; border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot" target="_blank">
-                    <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/copilot-extension.png" width="40" height="40" loading="lazy"/>
-                    <div style="padding-left: 10px;">
-                        <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">Github Copilot</h3>
-                        <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Your AI pair programmer</p>
-                    </div>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=GitHub.copilot" target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/copilot-extension.png" width="40"
+                            height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>Github
+                                Copilot</h3>
+                            <p>Your AI
+                                pair programmer</p>
+                        </div>
                     </a>
                 </div>
                 <div>
-                    <a style=" margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row;  border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">
-                        <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/gitlens-extension.png" width="40" height="40" loading="lazy"/>
-                        <div style="padding-left: 10px;">
-                            <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">GitLens</h3>
-                            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Superchange your Git experience</p>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens" target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/gitlens-extension.png" width="40"
+                            height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>GitLens</h3>
+                            <p>Superchange
+                                your Git experience</p>
                         </div>
-                        </a>
+                    </a>
 
                 </div>
                 <div>
-                    <a style="margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row; padding: 16px; border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github" target="_blank">
-                        <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/github-pull-requests-extension.png" width="40" height="40" loading="lazy"/>
-                        <div style="padding-left: 10px;">
-                            <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">Githun Pull Requests</h3>
-                            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Collaborate on issues and pull requests</p>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github"
+                        target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/github-pull-requests-extension.png"
+                            width="40" height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>Githun Pull
+                                Requests</h3>
+                            <p>Collaborate
+                                on issues and pull requests</p>
                         </div>
-                        </a>
+                    </a>
                 </div>
             </div>
+            <div>
                 <div>
-                    <div>
-                        <a style=" margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row; padding: 16px; border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">
-                        <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/c-extension.png" width="40" height="40" loading="lazy"/>
-                        <div style="padding-left: 10px;">
-                            <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">C/C++</h3>
-                            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Adds rich language support for C/C++</p>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools" target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/c-extension.png" width="40" height="40"
+                            loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>C/C++</h3>
+                            <p>Adds rich
+                                language support for C/C++</p>
                         </div>
-                        </a>
-                    </div>
-                    <div>
-                        <a style=" margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row;  border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit" target="_blank">
-                            <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/cs-dev-kit-extension.png" width="40" height="40" loading="lazy"/>
-                            <div style="padding-left: 10px;">
-                                <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">C# Dev Kit</h3>
-                                <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Powerfull tools for your C# environment</p>
-                            </div>
-                            </a>
-                    </div>
-                    <div>
-                        <a style="margin: 12px; width: 240px; height: 120px; cursor:  pointer; box-sizing: border-box; display: flex; flex-direction: row; border-radius: 8px; text-decoration: none; justify-content: center;align-items: center; border: 1 px solid rgba(255, 255, 255, 0.04); background-color: rgba(255, 255, 255, 0.04);" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack" target="_blank">
-                            <img style="display: flex ;justify-content: center;" src="https://code.visualstudio.com/assets/images/remote-extension.png" width="40" height="40" loading="lazy"/>
-                            <div style="padding-left: 10px;">
-                                <h3 style=" color: #e9eaeb;font-size: 16px; font-weight: 600;margin-top: 2px;">Remote Development</h3>
-                                <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">Open folders in a container on a remote machine</p>
-                            </div>
-                            </a>
-                    </div>
+                    </a>
+                </div>
+                <div>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit"
+                        target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/cs-dev-kit-extension.png" width="40"
+                            height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>C# Dev Kit
+                            </h3>
+                            <p>Powerfull
+                                tools for your C# environment</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a class="section2-right"
+                        href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack"
+                        target="_blank">
+                        <img class="right-section2-img"
+                            src="https://code.visualstudio.com/assets/images/remote-extension.png" width="40"
+                            height="40" loading="lazy" />
+                        <div class="right-box-section2">
+                            <h3>Remote
+                                Development</h3>
+                            <p>Open
+                                folders in a container on a remote machine</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
+        </div>
     </section>
-    <div style="display: flex; justify-content: space-between;padding-left: 130px; padding-right: 120px; padding-bottom: 120px;padding-top: 2px;">
+    
+    <div
+        style="display: flex; justify-content: space-between;padding-left: 130px; padding-right: 120px; padding-bottom: 120px;padding-top: 2px;">
         <div style="color: white; padding-right: 80px;">
             <h1>Code with Github Copilot</h1>
             <p style="color:#9ba3b4 ;">Write code faster and smarter with GitHub Copilot, your AI pair programmer.
 
-                <div><a style="color: #4daafc;line-height: 160%;" href="https://github.com/settings/copilot?utm_source=vscode-landing-2&utm_medium=swim&utm_campaign=2024q3-em-MSFT-signup" target="_blank"> GitHub Copilot free for 30 days</a></div>
-                <div style="padding-top: 30px;padding-bottom: 16px; color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;" href="https://code.visualstudio.com/docs/copilot/ai-powered-suggestions">Completions</a></span> present suggestions automatically to help you code more efficiently.</div>
-                
-                <div style="padding-top: 16px;color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;" href="https://code.visualstudio.com/docs/copilot/copilot-chat">Copilot Chat</a></span> understands the context of your code, workspace, extensions, settings, and more.</div>
-                
-                <div style="padding-top: 16px;color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;" href="https://code.visualstudio.com/docs/copilot/getting-started#_refactor-your-code-through-ai-chat">Inline Chat</a></span> enables you to iteratively generate edits and get answers to quick questions, directly on your code.</p></div>
+            <div><a style="color: #4daafc;line-height: 160%;"
+                    href="https://github.com/settings/copilot?utm_source=vscode-landing-2&utm_medium=swim&utm_campaign=2024q3-em-MSFT-signup"
+                    target="_blank"> GitHub Copilot free for 30 days</a></div>
+            <div style="padding-top: 30px;padding-bottom: 16px; color: #9ba3b4;line-height: 160%;"><span><a
+                        style="color: #4daafc;"
+                        href="https://code.visualstudio.com/docs/copilot/ai-powered-suggestions">Completions</a></span>
+                present suggestions automatically to help you code more efficiently.</div>
+
+            <div style="padding-top: 16px;color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;"
+                        href="https://code.visualstudio.com/docs/copilot/copilot-chat">Copilot Chat</a></span>
+                understands the context of your code, workspace, extensions, settings, and more.</div>
+
+            <div style="padding-top: 16px;color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;"
+                        href="https://code.visualstudio.com/docs/copilot/getting-started#_refactor-your-code-through-ai-chat">Inline
+                        Chat</a></span> enables you to iteratively generate edits and get answers to quick questions,
+                directly on your code.</p>
+            </div>
         </div>
         <div>
-            <img src="https://code.visualstudio.com/assets/home/swimlane-copilot.png" width="800" height="450"/>
+            <img src="https://code.visualstudio.com/assets/home/swimlane-copilot.png" width="800" height="450" />
         </div>
     </div>
 
-    <div style="display: flex; justify-content: space-between;padding-left: 130px; padding-right: 120px; padding-bottom: 120px;padding-top: 2px;">
+    <div
+        style="display: flex; justify-content: space-between;padding-left: 130px; padding-right: 120px; padding-bottom: 120px;padding-top: 2px;">
         <div style="color: white; padding-right: 90px">
             <h1>Code fully customized</h1>
             <p style="color:#9ba3b4 ;">Customize your VS Code UI and layout so that it fits your coding style.
 
-                <div style="padding-top: 20px;padding-bottom: 16px; color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;" href="https://code.visualstudio.com/docs/getstarted/themes">Color themes</a></span> let you modify the colors in VS Code's user interface to suit your preferences and work environment.</div>
-                
-                <div style="padding-top: 16px;color: #9ba3b4;"><span><a style="color: #4daafc;line-height: 160%;" href="https://code.visualstudio.com/docs/getstarted/settings#_settings-sync">Settings Sync</a></span> enables you to share your user settings across your VS Code instances with the Settings Sync feature.</div>
-                
-                <div style="padding-top: 16px;color: #9ba3b4;"><span><a style="color: #4daafc;line-height: 160%;" href="https://code.visualstudio.com/docs/editor/profiles">Profiles</a></span> let you create sets of customizations and quickly switch between them or share them with others.</p></div>            
+            <div style="padding-top: 20px;padding-bottom: 16px; color: #9ba3b4;line-height: 160%;"><span><a
+                        style="color: #4daafc;" href="https://code.visualstudio.com/docs/getstarted/themes">Color
+                        themes</a></span> let you modify the colors in VS Code's user interface to suit your preferences
+                and work environment.</div>
+
+            <div style="padding-top: 16px;color: #9ba3b4;"><span><a style="color: #4daafc;line-height: 160%;"
+                        href="https://code.visualstudio.com/docs/getstarted/settings#_settings-sync">Settings
+                        Sync</a></span> enables you to share your user settings across your VS Code instances with the
+                Settings Sync feature.</div>
+
+            <div style="padding-top: 16px;color: #9ba3b4;"><span><a style="color: #4daafc;line-height: 160%;"
+                        href="https://code.visualstudio.com/docs/editor/profiles">Profiles</a></span> let you create
+                sets of customizations and quickly switch between them or share them with others.</p>
+            </div>
         </div>
         <div>
-            <img src="https://code.visualstudio.com/assets/home/swimlane-customized.png" width="800" height="450"/>
+            <img src="https://code.visualstudio.com/assets/home/swimlane-customized.png" width="800" height="450" />
         </div>
     </div>
 
-    <div style="display: flex; justify-content: space-between;padding-left: 130px; padding-right: 120px; padding-bottom: 90px;padding-top: 2px;">
+    <div
+        style="display: flex; justify-content: space-between;padding-left: 130px; padding-right: 120px; padding-bottom: 90px;padding-top: 2px;">
         <div style="color: white; padding-right: 90px">
             <h1>Code anywhere</h1>
-            <p style="color:#9ba3b4 ;">Code wherever you're most productive, whether you're connected to the cloud, a remote repository, or in the browser with VS Code for the Web (vscode.dev).
+            <p style="color:#9ba3b4 ;">Code wherever you're most productive, whether you're connected to the cloud, a
+                remote repository, or in the browser with VS Code for the Web (vscode.dev).
 
-                <div style="padding-top: 20px;padding-bottom: 16px; color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;" href="https://code.visualstudio.com/docs/sourcecontrol/overview">Built-in Source Control</a></span> empowers you with Git support out-of-the-box. Many other source control providers are available through extensions.</div>
-                
-                <div style="padding-top: 16px;color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;" href="https://code.visualstudio.com/docs/remote/codespaces">Github Codespaces</a></span>  provides cloud-powered development environments for any activity - whether it's a long-term project, or a short-term task like reviewing a pull request.</div>   
+            <div style="padding-top: 20px;padding-bottom: 16px; color: #9ba3b4;line-height: 160%;"><span><a
+                        style="color: #4daafc;"
+                        href="https://code.visualstudio.com/docs/sourcecontrol/overview">Built-in Source
+                        Control</a></span> empowers you with Git support out-of-the-box. Many other source control
+                providers are available through extensions.</div>
+
+            <div style="padding-top: 16px;color: #9ba3b4;line-height: 160%;"><span><a style="color: #4daafc;"
+                        href="https://code.visualstudio.com/docs/remote/codespaces">Github Codespaces</a></span>
+                provides cloud-powered development environments for any activity - whether it's a long-term project, or
+                a short-term task like reviewing a pull request.</div>
         </div>
         <div>
-            <img src="https://code.visualstudio.com/assets/home/swimlane-anywhere.png" width="800" height="450"/>
+            <img src="https://code.visualstudio.com/assets/home/swimlane-anywhere.png" width="800" height="450" />
         </div>
     </div>
 
 
-    <div style="display: flex; justify-content: center; text-align: center; padding-bottom: 40px;flex-direction: column;">
+    <div
+        style="display: flex; justify-content: center; text-align: center; padding-bottom: 40px;flex-direction: column;">
         <div style="padding-left: 520px; padding-right: 520px;">
             <h2 style="font-size: 30; font-weight: 600; color: white;">Code with rich features</h2>
-            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">There's a lot more to an editor. Whether it's using built-in features or rich extensions, there's something for everyone.</p>
+            <p style="font-size: 16px; font-weight: 500; line-height: 160%; color: #9ba3b4;">There's a lot more to an
+                editor. Whether it's using built-in features or rich extensions, there's something for everyone.</p>
         </div>
     </div>
-        <div style="display: flex; justify-content:center;flex-wrap:wrap;gap: 16px; padding-left: 130px;padding-right: 120px;padding-bottom: 110px;">
-            <a style=" display: flex;flex-direction: column;padding: 24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-terminal.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb;font-size: 16px; font-weight: 600; line-height: 160%;">Integrated terminal</h3>
-                <p style="color: #9ba3b4; font-size: 14px;line-height: 24px;">Use your favorite shell whether it's zsh,pwsh, or git bash, all inside the editor.</p>
-            </a>
-            <a style="display: flex;flex-direction: column;padding: 24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-debug.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb;font-size: 16px; font-weight: 600; line-height: 160%;">Run code</h3>
-                <p style="color: #9ba3b4; font-size: 14px;line-height: 24px;">Run and debug your code without leaving your editor.</p>
-            </a>
-            <a style="display: flex;flex-direction: column;padding: 24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-version-control.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb;font-size: 16px; font-weight: 600; line-height: 160%;">Version control</h3>
-                <p style="color: #9ba3b4; font-size: 14px;line-height: 24px;">Built-in support for git and many other source control providers.</p>
-            </a>
-            <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-build-tasks.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Build tasks</h3>
-                <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Run tools and analyze their results from within VS Code.</p>
-            </a>
-            <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-local-history.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Local history</h3>
-                <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Never lose your changes with automatically tracked local history.</p>
-            </a>
-            <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-themes.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Themes</h3>
-                <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Your theme is an extension of your personality. Add some flair to your editor and add your touch.</p>
-            </a>
-            <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-accessibility.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Accessibility</h3>
-                <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Optimized experience for screen readers, high contrast themes, and keyboard-only navigation.</p>
-            </a>
-            <a style=":a:hover{border-color: 2px solid #9ba3b4;} display: flex;flex-direction: column;padding:24px;text-align: left; align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);" href="">
-                <img src="https://code.visualstudio.com/assets/icons/codicon-web.svg" width="24" height="24"/>
-                <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Web support</h3>
-                <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Whether you are on your phone, tablet, or desktop, you can access your code from anywhere.</p>
-            </a>
-        </div>
+    <div
+        style="display: flex; justify-content:center;flex-wrap:wrap;gap: 16px; padding-left: 130px;padding-right: 120px;padding-bottom: 110px;">
+        <a style=" display: flex;flex-direction: column;padding: 24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-terminal.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb;font-size: 16px; font-weight: 600; line-height: 160%;">Integrated terminal</h3>
+            <p style="color: #9ba3b4; font-size: 14px;line-height: 24px;">Use your favorite shell whether it's zsh,pwsh,
+                or git bash, all inside the editor.</p>
+        </a>
+        <a style="display: flex;flex-direction: column;padding: 24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-debug.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb;font-size: 16px; font-weight: 600; line-height: 160%;">Run code</h3>
+            <p style="color: #9ba3b4; font-size: 14px;line-height: 24px;">Run and debug your code without leaving your
+                editor.</p>
+        </a>
+        <a style="display: flex;flex-direction: column;padding: 24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-version-control.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb;font-size: 16px; font-weight: 600; line-height: 160%;">Version control</h3>
+            <p style="color: #9ba3b4; font-size: 14px;line-height: 24px;">Built-in support for git and many other source
+                control providers.</p>
+        </a>
+        <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-build-tasks.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Build tasks</h3>
+            <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Run tools and analyze their results from
+                within VS Code.</p>
+        </a>
+        <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-local-history.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Local history</h3>
+            <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Never lose your changes with automatically
+                tracked local history.</p>
+        </a>
+        <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-themes.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Themes</h3>
+            <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Your theme is an extension of your
+                personality. Add some flair to your editor and add your touch.</p>
+        </a>
+        <a style="display: flex;flex-direction: column;padding:24px;text-align: left;align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-accessibility.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Accessibility</h3>
+            <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Optimized experience for screen readers, high
+                contrast themes, and keyboard-only navigation.</p>
+        </a>
+        <a style=":a:hover{border-color: 2px solid #9ba3b4;} display: flex;flex-direction: column;padding:24px;text-align: left; align-items: flex-start;text-decoration: none;height: 150px;width: 250px; border: 1px solid rgba(255, 255, 255, 0.07);;border-radius: 10px;background: rgba(255, 255, 255, 0.04);"
+            href="">
+            <img src="https://code.visualstudio.com/assets/icons/codicon-web.svg" width="24" height="24" />
+            <h3 style="color: #e9eaeb; font-size: 16px; font-weight: 600; line-height: 160%;">Web support</h3>
+            <p style=" color: #9ba3b4; font-size: 14px;line-height: 24px;">Whether you are on your phone, tablet, or
+                desktop, you can access your code from anywhere.</p>
+        </a>
+    </div>
     </div>
 
     <div style="display: flex;justify-content: space-between;padding-right: 120px;">
         <div>
-            <footer style="color: #9ba3b4; display: flex;flex-direction:column; padding-bottom: 100px;text-align: left;padding-left: 130px;padding-right: 120px;">
+            <footer
+                style="color: #9ba3b4; display: flex;flex-direction:column; padding-bottom: 100px;text-align: left;padding-left: 130px;padding-right: 120px;">
                 <div style="display: flex;justify-content: left;align-items: center;">
                     <div style="padding-bottom: 20px;padding-right: 20px;">
-                        <a href="https://x.com/code"><img src="https://code.visualstudio.com/assets/icons/x-icon.svg" width="18" height="18"/></a>
+                        <a href="https://x.com/code"><img src="https://code.visualstudio.com/assets/icons/x-icon.svg"
+                                width="18" height="18" /></a>
                     </div>
                     <div style="padding-bottom: 20px;padding-right: 20px;">
-                        <a href="https://github.com/microsoft/vscode"><img src="https://code.visualstudio.com/assets/icons/github-icon.svg" width="24" height="25"/></a>
+                        <a href="https://github.com/microsoft/vscode"><img
+                                src="https://code.visualstudio.com/assets/icons/github-icon.svg" width="24"
+                                height="25" /></a>
                     </div>
                     <div style="padding-bottom: 20px;padding-right: 20px;">
-                        <a href="https://www.youtube.com/@code"><img src="https://code.visualstudio.com/assets/icons/youtube-icon.svg" width="24" height="25"/></a>
+                        <a href="https://www.youtube.com/@code"><img
+                                src="https://code.visualstudio.com/assets/icons/youtube-icon.svg" width="24"
+                                height="25" /></a>
                     </div>
                 </div>
                 <div style="display: flex;justify-content: start;gap: 16px; font-size: 12px;">
-                    <a style="text-decoration: none;color: #9ba3b4;" href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=9ed4cd8c-9a98-405f-966b-38ab1b0c24a3&redirect_uri=https%3A%2F%2Fsupport.serviceshub.microsoft.com%2F&resource=9ed4cd8c-9a98-405f-966b-38ab1b0c24a3&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DPBkWaFW4IUr9c4S__P1MwINErcb7qkwngPFM-riMfpvHWNp-MkCmJlXsZ6KMPUHdXuNTi0P9IFp3TIzUviqUkNfKcRlAMkMkFbrseX9xhDPkO_U9RfyrvNgwizrhvkbFe7qslwZOeLyE30XBp6OTeGraAo5JatlRT4p6eu9krVFG4WVLG8cZlRcfph0A-VW2VkLWMI9zlEt9p3cJ9b1m0Q6ACxDsCL30HI4VqTI4niVhcyWdCv7G9z-5mJ_DCWakZYeV4hRuDq-tICav9RWP8Q&response_mode=form_post&nonce=638587898593683185.Yjc4ODQyMTctYjQ4MS00YmFkLWFlNTEtNzI1ZjY3ODMzYzc5YzY1ODUyM2MtMWIxYi00ZGJlLTk5NzYtYjNjY2I5MmIyMDkw&instance_aware=true&x-client-SKU=ID_NET472&x-client-ver=7.4.0.0&sso_reload=true" target="_blank"><span>Support</span></a>
-                    <a style="color:  #9ba3b4;text-decoration: none;" href="https://privacy.microsoft.com/en-gb/privacystatement" target="_blank"><span>Privacy</span></a>
-                    <a style="color: #9ba3b4;text-decoration: none;" href="https://www.microsoft.com/en-us/legal/terms-of-use" target="_blank"><span>Terms of Use</span></a>
-                    <a style="color: #9ba3b4; text-decoration: none;" href="https://code.visualstudio.com/License" target="_blank"><span>License</span></a>
+                    <a style="text-decoration: none;color: #9ba3b4;"
+                        href="https://login.microsoftonline.com/common/oauth2/authorize?client_id=9ed4cd8c-9a98-405f-966b-38ab1b0c24a3&redirect_uri=https%3A%2F%2Fsupport.serviceshub.microsoft.com%2F&resource=9ed4cd8c-9a98-405f-966b-38ab1b0c24a3&response_type=code%20id_token&scope=openid%20profile&state=OpenIdConnect.AuthenticationProperties%3DPBkWaFW4IUr9c4S__P1MwINErcb7qkwngPFM-riMfpvHWNp-MkCmJlXsZ6KMPUHdXuNTi0P9IFp3TIzUviqUkNfKcRlAMkMkFbrseX9xhDPkO_U9RfyrvNgwizrhvkbFe7qslwZOeLyE30XBp6OTeGraAo5JatlRT4p6eu9krVFG4WVLG8cZlRcfph0A-VW2VkLWMI9zlEt9p3cJ9b1m0Q6ACxDsCL30HI4VqTI4niVhcyWdCv7G9z-5mJ_DCWakZYeV4hRuDq-tICav9RWP8Q&response_mode=form_post&nonce=638587898593683185.Yjc4ODQyMTctYjQ4MS00YmFkLWFlNTEtNzI1ZjY3ODMzYzc5YzY1ODUyM2MtMWIxYi00ZGJlLTk5NzYtYjNjY2I5MmIyMDkw&instance_aware=true&x-client-SKU=ID_NET472&x-client-ver=7.4.0.0&sso_reload=true"
+                        target="_blank"><span>Support</span></a>
+                    <a style="color:  #9ba3b4;text-decoration: none ;"
+                        href="https://privacy.microsoft.com/en-gb/privacystatement"
+                        target="_blank"><span>Privacy</span></a>
+                    <a style="color: #9ba3b4;text-decoration: none;"
+                        href="https://www.microsoft.com/en-us/legal/terms-of-use" target="_blank"><span>Terms of
+                            Use</span></a>
+                    <a style="color: #9ba3b4; text-decoration: none;" href="https://code.visualstudio.com/License"
+                        target="_blank"><span>License</span></a>
                 </div>
             </footer>
         </div>
         <div>
-            <a href="https://www.microsoft.com/en-in/"><img src="https://code.visualstudio.com/assets/icons/microsoft.svg" width="23" height="24"/></a>
+            <a href="https://www.microsoft.com/en-in/"><img
+                    src="https://code.visualstudio.com/assets/icons/microsoft.svg" width="23" height="24" /></a>
         </div>
     </div>
 </body>
